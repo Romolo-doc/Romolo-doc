@@ -1,0 +1,132 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    background-color: rgb(63, 61, 61);
+    }
+    #centrato {
+    height:auto;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    #header {
+    position:relative;
+    background-color: rgb(63, 61, 61);
+    height:150px;
+    width:100%;
+    }
+    #primaColonna {
+    background-color:#050505;
+    float:left;
+    height:450px;
+    width:20%;
+    }
+    #menuVerticale ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    }
+    #menuOr {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color: white;
+    text-align:center;
+    background-color:black;
+    }
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+    
+    #menuOr ul a:link , ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    }
+    #menuOr ul a:hover {
+    background-color:black;
+    }
+    #menuOr ul li{
+    float:left;
+    width:120px;
+    }
+    #secondaColonna {
+    background-color:red;
+    float:left;
+    height:450px;
+    width:80%;
+    }
+    #footer {
+    background-color:black;
+    clear:left;
+    height:50px;
+    width:100%;
+    }
+    #foto_mariobruno 
+    { 
+        display: block;
+        margin: 0px auto;
+        text-align:center;
+        width: 450px;
+        height: 350px;
+    }
+    #foto_atletico
+    {
+        display: block;
+        margin: 0px auto;
+        text-align:left;
+        width: 450px;
+        height: 350px; 
+    }
+    #Chi-sono
+    {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-align: center;
+    }
+    #Calcio
+    {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-align: center;
+    }
+    #foto_colamonico
+    {
+        display: block;
+        margin: 0px auto;
+        text-align:left;
+        width: 450px;
+        height: 350px; 
+    }
+    #Scuola
+    {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-align: center;
+    }
+    #foto_cipolla
+    {
+        display: block;
+        margin: 0px auto;
+        text-align:left;
+        width: 450px;
+        height: 350px; 
+    }
+    #Prodotti-tipici-del-paese
+    {
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-align: center;
+    }
+    
