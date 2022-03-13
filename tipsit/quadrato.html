@@ -1,0 +1,27 @@
+<html>
+<head>
+    <style>
+        form   {
+                   text-align: center;
+                   border-style:double;
+                   border-color: black;
+
+               }
+    </style>
+    <script type="text/javascript">
+        function stampa10numeri ()
+        {
+            for(var i=0; i<10; i++)
+            {
+                 var risultato=i*i;
+                 window.alert("Risultato:   "  + risultato);
+            }
+        }
+    </script>
+</head>
+<body>
+     <h1>stampare 10 numeri interi</h1>
+     <form name="numero">
+    <input type="button" value="calcola" onclick="stampa10numeri()">
+</body>
+</html>

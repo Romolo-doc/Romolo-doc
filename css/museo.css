@@ -1,0 +1,39 @@
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: aqua;
+}
+
+#titolo{
+    text-align: center;
+    }
+
+#AMA{
+    padding-left: 550px;
+    width: 300px;
+    }
+
+#mappa{
+    padding-left: 300px;
+    padding-top: 150px;
+    width: 300px;
+}
+
+.opere{
+   
+    text-align: center;
+}
+#interno{
+    padding-left: 100px;
+    width: 50;
+}
+
+#interno1{
+    padding-left: 100px;
+    width: 50;
+}
+
+#maling{
+        text-align: center;
+}
