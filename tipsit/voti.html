@@ -1,0 +1,48 @@
+<DOCTYPE html>
+    <html lang="it">
+    <head>
+        <style type="text/css">
+            #voti{
+                color: aquamarine;
+                background-color: black;
+                font-size: 250%;
+            }
+            body{
+                background-color: blue;
+            }
+        
+        </style>
+
+        <script type="text/javascript">
+         function valuta_voti()
+        {
+             var numero= document.getElementById("voti").value;
+             if(numero>7)
+             {
+                 numero="numero maggiore di 7";
+                 document.getElementById("voti").value;
+             }
+        }
+
+        </script>
+    </head>
+    <body>
+        <select name="voti" id="voti">
+            <option value="n1">1</option>
+            <option value="n2">2</option>
+            <option value="n3">3</option>
+            <option value="n4">4</option>
+            <option value="n5">5</option>
+            <option value="n6">6</option>
+            <option value="n7">7</option>
+            <option value="n8">8</option>
+            <option value="n9">9</option>
+            <option value="n10">10</option>
+
+        </select>
+        <button onclick=" valuta_voti()" >clicca</button>
+        <div>
+            <p id="testo"></p>
+        </div>
+    </body>
+    </HTML>
